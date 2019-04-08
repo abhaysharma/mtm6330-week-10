@@ -86,5 +86,6 @@ $(document).ready(function ($) {
       $('#posts').append(post)
     }
   }) // Closing the Ajax call for the remote server
+  
   AOS.init();
 }) // Closing the document.ready method and the function
